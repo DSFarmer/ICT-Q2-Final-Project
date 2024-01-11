@@ -1,0 +1,93 @@
+body {
+  	background-image: url(https://i.natgeofe.com/n/04505c35-858b-4e95-a1a7-d72e5418b7fc/steep-karst-cliffs-of-el-nido-in-palawan.jpg);
+  	background-position: center;
+  	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.header {
+    column-gap: 50px;
+    padding: 40px;
+}
+
+#header_pic {
+	object-fit:cover;
+	width: 1000px;
+	height:300px;
+}
+
+.intro {
+	justify-content: center;
+	border: 7px solid royalblue;
+	border-radius: 100px; 
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+   	background: rgba(255, 255, 255, 255);
+    padding:25px;
+    width: 900px;
+    margin: 50px;
+	font-family: Times New Roman, courier, serif;
+	font-style: bold;
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+.content {
+    column-gap: 50px;
+    row-gap: 50px;
+    grid-gap: 40px;
+    padding: 50px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.destinations {
+	border: 7px dashed slateblue;
+	width: 470px;
+	height: 635px;
+	padding-right: 60px;
+  	padding-left: 60px;
+	border-radius: 100px;
+	align-items: center;
+	justify-content: center;
+	display: inline-flex;
+	flex-wrap: wrap;
+	background: rgba(255, 255, 255, 255);
+	-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+
+
+
+.header2 {
+	text-align: center;
+    padding: 50px;
+    letter-spacing: 5px;
+    text-decoration: double-underline;
+    background: rgba(173, 216, 230, 0.9);
+    font-family: Times New Roman, courier, serif;
+	text-decoration: underline;
+	text-shadow: -3px 2px 0px rgba(1, 197, 96, 0.89);
+}
+
+.header3 {
+	display: flex;
+	justify-content: center;
+    align-items: center;
+}
+
+.footer {
+	padding-left: 15px; 
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background: rgba(173, 216, 230, 0.9);
+    text-shadow: -1px 0px 0px rgba(1, 197, 96, 0.89);
+    font-family: Times New Roman, courier, serif;
+}
+
+
